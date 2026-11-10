@@ -1,0 +1,36 @@
+# ===== Gradle =====
+.gradle/
+build/
+# Mantenha gradle/wrapper/gradle-wrapper.jar versionado (não ignore *.jar)
+
+# ===== Kotlin =====
+.kotlin/
+
+# ===== Configuração local (caminho do SDK da sua máquina) =====
+local.properties
+
+# ===== Android Studio / IntelliJ =====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===== Android =====
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ===== Assinatura de apps (nunca versionar) =====
+*.jks
+*.keystore
+keystore.properties
+
+# ===== Logs e arquivos do sistema =====
+*.log
+.DS_Store
+Thumbs.db
